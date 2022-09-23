@@ -16,8 +16,32 @@ header ul {
 header ul li {
     padding: 20px;
     cursor: pointer;
-    border: 1px solid;
-    border-color: transparent red   ;
     color: green;
     font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+section p {
+    padding: 50px;
+    line-height: 2;
+}
+
+.one {
+    background-color: yellow;
+}
+.two {
+    background-color: greenyellow;
+}
+.three {
+    background-color:navajowhite;
+}
+.four {
+    background-color:darkcyan;
 }
