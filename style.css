@@ -45,3 +45,25 @@ section p {
 .four {
     background-color:darkcyan;
 }
+
+footer {
+    padding: 50px;
+    background-color: darkmagenta;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer button {
+    /* flex-basis: 50px; */
+    border-radius: 10px;
+    background-color: pink;
+    font-weight: bold;
+    cursor: pointer;
+}
